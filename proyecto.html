@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dunkin' Donuts Ecuador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Dunkin' Ecuador</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="inicio" class="bg-warning text-dark text-center" style="padding-top:120px; padding-bottom:100px;">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Bienvenidos a Dunkin' Donuts Ecuador</h1>
+        <p class="lead">Disfruta nuestras deliciosas donas y el mejor café todos los días.</p>
+        <a href="#productos" class="btn btn-dark btn-lg mt-3">Ver Productos</a>
+    </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="imagenes/cafe1.jpeg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Donas Clásicas</h5>
+                        <p class="card-text">Sabores tradicionales con la calidad que nos caracteriza.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="imagenes/2.jpeg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">14.49</h5>
+                        <p class="card-text">Café recién preparado para acompañar tus momentos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="imagenes/cafe4.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">12.99</h5>
+                        <p class="card-text">Opciones refrescantes ideales para cualquier hora del día.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros" class="bg-light py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Sobre Nosotros</h2>
+        <p>
+            Dunkin' Donuts es una empresa internacional especializada en donas,
+            café y bebidas. En Ecuador ofrecemos productos frescos, atención de calidad
+            y un ambiente acogedor para todos nuestros clientes.
+        </p>
+
+       <div class="ratio ratio-16x9 mt-4">
+  <iframe 
+    src="https://player.vimeo.com/video/109470568" 
+    title="Donut Fun"
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form class="mx-auto" style="max-width:600px;">
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input type="text" class="form-control" placeholder="Tu nombre">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Correo</label>
+                <input type="email" class="form-control" placeholder="correo@email.com">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Mensaje</label>
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-warning w-100">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2026 Dunkin' Donuts Ecuador | Proyecto académico con Bootstrap</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
